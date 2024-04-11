@@ -1,60 +1,67 @@
-# EasyBusyHub - Ecommerce Webapp
+# E-Commerce Website
 
-### [Live Site](https://amazon-next-saketkothari.vercel.app)
+A Ecommerce Website made with React.js Framework.
 
-<img style="text-align:center" src="https://user-images.githubusercontent.com/81709725/123828141-d7574880-d91e-11eb-87a2-adc6dd07ca1e.gif" width="600" height="400"/>
 
-#
+## Demo
 
-### [Working Video](https://www.linkedin.com/posts/saket-kothari_a-web-app-which-is-fully-responsive-that-activity-6838861781708931072-F_ac?utm_source=share&utm_medium=member_desktop)
+https://reactjs-ecommerce-app.vercel.app/
 
-A web app which is fully responsive that tries to imitate the desktop version of Amazon website, in this you can add, remove an item to cart,
-It has payment integration and also it has user authentication feature thanks to Firebase.
+## Features
 
-### Features
+- Easy to integrate with Backend
+- Fully Responsive
 
-- Add and remove products from the basket
-- User authentication
-- Stripe checkout
-- Data persistency with Firebase
-- Firebase Cloud Functions
-- Users purchase history with Cloud Firestore
-- Responsive Design
-- Store orders for logged in user
-- Use Webhooks as they have a message or payload, and are sent to a unique URL
-- Use Tailwind CSS which rapidly build modern websites without ever leaving your HTML.
-- Use Next.js with all the features you need for production: hybrid static & server rendering.
-- Use fakeStoreApi which is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce
-  or shopping website without running any server-side code.
 
-#
+## Screenshots
 
-### Installation Steps
+![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
 
-You need to install the dependencies:
 
-```
-npm install
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ssahibsingh/React_E-Commerce
 ```
 
-### Available Scripts
+Go to the project directory
 
-In the project directory, you can run:
-
-```
-npm run dev
+```bash
+  cd React_E-Commerce
 ```
 
-### To start the webhook
+Install dependencies
 
-You need to install the [Stripe-CLI](https://github.com/stripe/stripe-cli/releases/latest) :
-
-```
-stripe login
+```bash
+  npm install
 ```
 
-After login and enter in the browser then run this command in the terminal
+Start the server
 
+```bash
+  npm start
 ```
-stripe listen --forward-to localhost:3000/api/webhook
-```
+
+
+
+## Tech Stack
+
+* [React](https://reactjs.org/)
+* [Redux](https://redux.js.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Fake Store API](https://fakestoreapi.com/)
+
+## Contributing
+
+Contributions are always welcome!
+Just raise an issue, we will discuss it.
+
+
+## Feedback
+
+If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
+
+
