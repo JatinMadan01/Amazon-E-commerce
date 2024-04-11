@@ -4,8 +4,7 @@ A Ecommerce Website made with React.js Framework.
 
 
 ## Demo
-
-https://reactjs-ecommerce-app.vercel.app/
+https://amazon-e-commerce-two.vercel.app/
 
 ## Features
 
@@ -20,12 +19,7 @@ https://reactjs-ecommerce-app.vercel.app/
 
 
 ## Run Locally
-
-```
-
 Go to the project directory
-
-```bash
 
 Install dependencies
 
